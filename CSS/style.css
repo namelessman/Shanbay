@@ -1,0 +1,37 @@
+body{
+	margin: 0px;
+	font-size: normal;
+}
+
+#header {
+	margin:0px;
+	padding: 0px;
+	height: 50px;
+	background-color: rgb(32,158,133);
+}
+
+#logo img{
+	margin: 0px 50px;
+	height: 40px;
+	float: left;
+}
+
+#log{
+	margin: 15px 100px;
+	float: right;
+	width: 100px;
+}
+#header nav{
+	margin: 5px 50px;
+	padding: 5px;
+}
+#header li{
+	display: inline;
+	margin: 5px 20px;
+}
+
+
+a{
+	text-decoration: none;
+	color: rgb(201,230,213);
+}
