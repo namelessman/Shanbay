@@ -1,6 +1,7 @@
 body{
 	margin: 0px;
 	font-size: normal;
+	color: rgb(255,255,255);
 }
 
 #header {
@@ -30,8 +31,115 @@ body{
 	margin: 5px 20px;
 }
 
-
 a{
+	color: white;
+	text-decoration: none;
+}
+
+nav a{
 	text-decoration: none;
 	color: rgb(201,230,213);
+}
+
+#footer a:hover{
+	color: rgb(32,158,124);
+	text-decoration: underline;
+}
+#main,#footer{
+	width:90%;
+	margin: auto;
+	/*padding-left: 0px;*/
+}
+
+#word{
+	background-color: rgb(104,195,159);
+}
+
+#read{
+	background-color: rgb(255,252,245);
+}
+
+#sentence{
+	background-color: rgb(254,231,155);
+}
+
+#community{
+	background-color: rgb(232,92,65);
+}
+
+#footer{
+	background-color: rgb(55,55,55);
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+.cover{
+	margin:30px;
+}
+#read .cover{
+	margin-left: 100px;
+}
+
+#community .cover{
+	margin-left: 200px;
+}
+.download{
+	margin-right: 0px;
+	margin-top: 40px;
+    position:absolute;
+    right:5%;
+}
+
+.description{
+	width: 25%;
+	position:absolute;
+    right:10%;
+    margin-top: 150px;
+    line-height: 250%;
+    font-size: 120%;
+}
+
+#sentence .description,#community .description{
+	margin-top: 50px;
+}
+.description li,#footer li{
+	list-style: none;
+}
+
+.description h1{
+	margin-left: 40px;
+}
+#read .description h1,#sentence .description h1{
+	color:rgb(232,92,65);
+}
+
+#read .description li,#sentence .description li{
+	color: rgb(120,122,118);
+}
+
+
+#footer div p{
+	font-size: 80%;
+	text-align: center;
+}
+
+div.tableContainer{
+	display: table;
+	background-color: red;
+}
+
+#how,#what,#wiki,#pal{
+	display: table-row;
+}
+
+#footer li{
+	display: table-cell;
+	width: 100px;
+}
+#footer img{
+	width:100px;
+}
+#footer li:nth-child(1) {
+	font-size: 17.5px;
+	font-weight: bold;
 }
