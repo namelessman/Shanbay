@@ -1,10 +1,14 @@
 body{
-	margin: 0px;
+	
+	margin: 0px ;
+	padding: 0px;
 	font-size: normal;
 	color: rgb(255,255,255);
+
 }
 
 #header {
+	width: 100%;
 	margin:0px;
 	padding: 0px;
 	height: 50px;
@@ -47,7 +51,7 @@ nav a{
 }
 #main,#footer{
 	width:90%;
-	margin: auto;
+	margin:0 auto;
 	/*padding-left: 0px;*/
 }
 
@@ -118,28 +122,21 @@ nav a{
 }
 
 
-#footer div p{
+#footer  p{
 	font-size: 80%;
 	text-align: center;
 }
-
-div.tableContainer{
-	display: table;
-	background-color: red;
+#footer{
+	padding-top: 20px;
+}
+#footer th{
+	color:;
+}
+#footer td{
+	width:300px;
+	text-align: center;
 }
 
-#how,#what,#wiki,#pal{
-	display: table-row;
-}
-
-#footer li{
-	display: table-cell;
-	width: 100px;
-}
 #footer img{
 	width:100px;
-}
-#footer li:nth-child(1) {
-	font-size: 17.5px;
-	font-weight: bold;
 }
